@@ -1,0 +1,14 @@
+CREATE DATABASE universidadd;
+USE universidadd;
+
+CREATE TABLE ejemplo (
+	id INT(5) AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL,
+    salary VARCHAR(50) NOT NULL,
+    PRIMARY KEY(id)
+);
+
+DESCRIBE ejemplo;
+
+INSERT INTO ejemplo VALUES 
+	(1, "juan", "100");
